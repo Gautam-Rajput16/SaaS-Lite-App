@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ai Video Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="saas logo.webp" type="image/x-icon" />
+  </head>
+  <body>
+
+    
+    <section class="image-generator">
+      <div class="content">
+        <p>Convert your Text into Video.</p>
+        <form id="videoForm" class="generate-form">
+     
+          <input
+            type="text"
+            id="prompt"
+            class="prompt-input"
+            placeholder="Enter the Prompt (Keyword)...."
+            required
+          />
+          <div class="controls">
+            <button type="submit" class="generate-btn">Generate</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <div
+      style="
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+      "
+      id="videoContainer"
+    >
+      <!-- Videos will be displayed here -->
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

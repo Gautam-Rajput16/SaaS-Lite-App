@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ai Image Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/saas logo.webp" type="image/x-icon">
+  </head>
+  <body>
+   
+    <section class="image-generator">
+      <div class="content">
+      
+        <p>Convert your Text into Image.</p>
+        <form action="#" class="generate-form">
+          <input
+            type="text"
+            class="prompt-input"
+            placeholder="Enter the Prompt"
+            required
+          />
+          <div class="controls">
+            <select class="img-quantity">
+              <option value="1" selected>1 Image</option>
+            </select>
+            <button type="submit" class="generate-btn">Generate</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="image-gallery">
+      <div class="img-card">
+        <img
+          src="images/solid-color-image.jpeg"
+          alt="Loading"
+          id="none"
+        />
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

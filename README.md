@@ -15,9 +15,25 @@ A lightweight **AI-powered SaaS platform** that offers multiple AI-driven servic
 
 ## 🖼️ Landing Page  
 
-![Landing Page](image.png)  
+![Landing Page](https://github.com/Gautam-Rajput16/SaaS-Lite-App/blob/main/Screenshot%20sass.png?raw=true)
 
 ---
+## 🛠️ Tech Stack  
+
+- **Frontend**: HTML, CSS, JavaScript  
+- **AI Models/APIs**: Google Gemini, Hugging Face, Pexels
 
 
+SaaS-Lite-App/
 
+  ├── Ai ChatBot/         # AI ChatBot feature files
+
+  ├── Text to Image/      # Text to Image feature files
+
+  ├── Text to Video/      # Text to Video feature files
+
+├── index.html          # Main HTML file
+
+├── style.css           # CSS for styling
+
+└── saas logo.webp      # Project logo

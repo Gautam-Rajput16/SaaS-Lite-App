@@ -24,6 +24,8 @@ A lightweight **AI-powered SaaS platform** that offers multiple AI-driven servic
 - **AI Models/APIs**: Google Gemini, Hugging Face, Pexels
 
 
+##  Folder Structure
+
 SaaS-Lite-App/
 
   ├── Ai ChatBot/         # AI ChatBot feature files
